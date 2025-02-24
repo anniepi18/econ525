@@ -39,7 +39,7 @@ if __name__ == "__main__":
     critical_5pct, mean_delta = dickey_fuller_montecarlo(
         num_iterations=10000,
         T=75,
-        burn_in=150,
+        deletions=150,
         mu=0.25,
         seed=42
     )
